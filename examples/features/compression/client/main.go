@@ -27,8 +27,8 @@ import (
 	"time"
 
 	"google.golang.org/grpc"
-	"google.golang.org/grpc/encoding/gzip" // Install the gzip compressor
-	pb "google.golang.org/grpc/examples/features/proto/echo"
+	"github.com/AmirSoleimani/grpc-go/encoding/gzip" // Install the gzip compressor
+	pb "github.com/AmirSoleimani/grpc-go/examples/features/proto/echo"
 )
 
 var addr = flag.String("addr", "localhost:50051", "the address to connect to")

@@ -29,7 +29,7 @@ import (
 	"time"
 
 	"golang.org/x/sys/unix"
-	"google.golang.org/grpc/grpclog"
+	"github.com/AmirSoleimani/grpc-go/grpclog"
 )
 
 // GetCPUTime returns the how much CPU time has passed since the start of this process.

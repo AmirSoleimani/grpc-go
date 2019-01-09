@@ -29,9 +29,9 @@ import (
 	"runtime/pprof"
 	"time"
 
-	"google.golang.org/grpc/benchmark"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/internal/syscall"
+	"github.com/AmirSoleimani/grpc-go/benchmark"
+	"github.com/AmirSoleimani/grpc-go/grpclog"
+	"github.com/AmirSoleimani/grpc-go/internal/syscall"
 )
 
 var (

@@ -21,8 +21,8 @@ package grpc
 import (
 	"testing"
 
-	"google.golang.org/grpc/internal/grpctest"
-	"google.golang.org/grpc/internal/leakcheck"
+	"github.com/AmirSoleimani/grpc-go/internal/grpctest"
+	"github.com/AmirSoleimani/grpc-go/internal/leakcheck"
 )
 
 type s struct{}

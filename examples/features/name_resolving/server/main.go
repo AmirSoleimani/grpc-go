@@ -26,9 +26,9 @@ import (
 	"net"
 
 	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	ecpb "google.golang.org/grpc/examples/features/proto/echo"
-	"google.golang.org/grpc/status"
+	"github.com/AmirSoleimani/grpc-go/codes"
+	ecpb "github.com/AmirSoleimani/grpc-go/examples/features/proto/echo"
+	"github.com/AmirSoleimani/grpc-go/status"
 )
 
 const addr = "localhost:50051"

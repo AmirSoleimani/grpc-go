@@ -29,7 +29,7 @@ import (
 
 	"google.golang.org/grpc"
 
-	testpb "google.golang.org/grpc/test/grpc_testing"
+	testpb "github.com/AmirSoleimani/grpc-go/test/grpc_testing"
 )
 
 type delayListener struct {

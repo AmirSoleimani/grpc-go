@@ -25,7 +25,7 @@ $ go get google.golang.org/grpc
 
 Then change your current directory to `grpc-go/examples/route_guide`:
 ```shell
-$ cd $GOPATH/src/google.golang.org/grpc/examples/route_guide
+$ cd $GOPATH/src/github.com/AmirSoleimani/grpc-go/examples/route_guide
 ```
 
 You also should have the relevant tools installed to generate the server and client interface code - if you don't already, follow the setup instructions in [the Go quick start guide](https://github.com/grpc/grpc-go/tree/master/examples/).
@@ -417,7 +417,7 @@ The syntax for reading and writing here is very similar to our client-side strea
 ## Try it out!
 
 To compile and run the server, assuming you are in the folder
-`$GOPATH/src/google.golang.org/grpc/examples/route_guide`, simply:
+`$GOPATH/src/github.com/AmirSoleimani/grpc-go/examples/route_guide`, simply:
 
 ```sh
 $ go run server/server.go

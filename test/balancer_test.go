@@ -25,14 +25,14 @@ import (
 	"time"
 
 	"google.golang.org/grpc"
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/resolver"
-	testpb "google.golang.org/grpc/test/grpc_testing"
-	"google.golang.org/grpc/testdata"
+	"github.com/AmirSoleimani/grpc-go/balancer"
+	"github.com/AmirSoleimani/grpc-go/connectivity"
+	"github.com/AmirSoleimani/grpc-go/credentials"
+	"github.com/AmirSoleimani/grpc-go/grpclog"
+	"github.com/AmirSoleimani/grpc-go/metadata"
+	"github.com/AmirSoleimani/grpc-go/resolver"
+	testpb "github.com/AmirSoleimani/grpc-go/test/grpc_testing"
+	"github.com/AmirSoleimani/grpc-go/testdata"
 )
 
 const testBalancerName = "testbalancer"

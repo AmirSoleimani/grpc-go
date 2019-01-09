@@ -30,12 +30,12 @@ import (
 	"strings"
 
 	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/credentials"
-	ecpb "google.golang.org/grpc/examples/features/proto/echo"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/status"
-	"google.golang.org/grpc/testdata"
+	"github.com/AmirSoleimani/grpc-go/codes"
+	"github.com/AmirSoleimani/grpc-go/credentials"
+	ecpb "github.com/AmirSoleimani/grpc-go/examples/features/proto/echo"
+	"github.com/AmirSoleimani/grpc-go/metadata"
+	"github.com/AmirSoleimani/grpc-go/status"
+	"github.com/AmirSoleimani/grpc-go/testdata"
 )
 
 var (
@@ -112,7 +112,7 @@ func ensureValidToken(ctx context.Context, req interface{}, info *grpc.UnaryServ
 		return nil, errMissingMetadata
 	}
 	// The keys within metadata.MD are normalized to lowercase.
-	// See: https://godoc.org/google.golang.org/grpc/metadata#New
+	// See: https://godoc.org/github.com/AmirSoleimani/grpc-go/metadata#New
 	if !valid(md["authorization"]) {
 		return nil, errInvalidToken
 	}

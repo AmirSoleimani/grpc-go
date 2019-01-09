@@ -25,9 +25,9 @@ authenticated TLS connection to transmit RPC.
 
 In our `grpc/credentials` package, we provide several convenience methods to
 create grpc
-[`credentials.TransportCredentials`](https://godoc.org/google.golang.org/grpc/credentials#TransportCredentials)
+[`credentials.TransportCredentials`](https://godoc.org/github.com/AmirSoleimani/grpc-go/credentials#TransportCredentials)
 base on TLS. Refer to the
-[godoc](https://godoc.org/google.golang.org/grpc/credentials) for details.
+[godoc](https://godoc.org/github.com/AmirSoleimani/grpc-go/credentials) for details.
 
 In our example, we use the public/private keys created ahead: 
 * "server1.pem" contains the server certificate (public key). 
@@ -37,11 +37,11 @@ that can verify the server's certificate.
 
 On server side, we provide the paths to "server1.pem" and "server1.key" to
 configure TLS and create the server credential using
-[`credentials.NewServerTLSFromFile`](https://godoc.org/google.golang.org/grpc/credentials#NewServerTLSFromFile).
+[`credentials.NewServerTLSFromFile`](https://godoc.org/github.com/AmirSoleimani/grpc-go/credentials#NewServerTLSFromFile).
 
 On client side, we provide the path to the "ca.pem" to configure TLS and create
 the client credential using
-[`credentials.NewClientTLSFromFile`](https://godoc.org/google.golang.org/grpc/credentials#NewClientTLSFromFile).
+[`credentials.NewClientTLSFromFile`](https://godoc.org/github.com/AmirSoleimani/grpc-go/credentials#NewClientTLSFromFile).
 Note that we override the server name with "x.test.youtube.com", as the server
 certificate is valid for *.test.youtube.com but not localhost. It is solely for
 the convenience of making an example.
@@ -67,15 +67,15 @@ Unlike TLS, ALTS makes certificate/key management transparent to user. So it is
 easier to set up.
 
 On server side, first call
-[`alts.DefaultServerOptions`](https://godoc.org/google.golang.org/grpc/credentials/alts#DefaultServerOptions)
+[`alts.DefaultServerOptions`](https://godoc.org/github.com/AmirSoleimani/grpc-go/credentials/alts#DefaultServerOptions)
 to get the configuration for alts and then provide the configuration to
-[`alts.NewServerCreds`](https://godoc.org/google.golang.org/grpc/credentials/alts#NewServerCreds)
+[`alts.NewServerCreds`](https://godoc.org/github.com/AmirSoleimani/grpc-go/credentials/alts#NewServerCreds)
 to create the server credential based upon alts.
 
 On client side, first call
-[`alts.DefaultClientOptions`](https://godoc.org/google.golang.org/grpc/credentials/alts#DefaultClientOptions)
+[`alts.DefaultClientOptions`](https://godoc.org/github.com/AmirSoleimani/grpc-go/credentials/alts#DefaultClientOptions)
 to get the configuration for alts and then provide the configuration to
-[`alts.NewClientCreds`](https://godoc.org/google.golang.org/grpc/credentials/alts#NewClientCreds)
+[`alts.NewClientCreds`](https://godoc.org/github.com/AmirSoleimani/grpc-go/credentials/alts#NewClientCreds)
 to create the client credential based upon alts.
 
 Next, same as TLS, start the server with the server credential and let client

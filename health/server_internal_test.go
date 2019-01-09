@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	healthpb "google.golang.org/grpc/health/grpc_health_v1"
+	healthpb "github.com/AmirSoleimani/grpc-go/health/grpc_health_v1"
 )
 
 func TestShutdown(t *testing.T) {

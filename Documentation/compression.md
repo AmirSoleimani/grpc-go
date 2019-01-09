@@ -2,7 +2,7 @@
 
 The preferred method for configuring message compression on both clients and
 servers is to use
-[`encoding.RegisterCompressor`](https://godoc.org/google.golang.org/grpc/encoding#RegisterCompressor)
+[`encoding.RegisterCompressor`](https://godoc.org/github.com/AmirSoleimani/grpc-go/encoding#RegisterCompressor)
 to register an implementation of a compression algorithm.  See
 `grpc/encoding/gzip/gzip.go` for an example of how to implement one.
 

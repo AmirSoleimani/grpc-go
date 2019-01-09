@@ -26,8 +26,8 @@ import (
 
 	"github.com/golang/mock/gomock"
 	"github.com/golang/protobuf/proto"
-	rgmock "google.golang.org/grpc/examples/route_guide/mock_routeguide"
-	rgpb "google.golang.org/grpc/examples/route_guide/routeguide"
+	rgmock "github.com/AmirSoleimani/grpc-go/examples/route_guide/mock_routeguide"
+	rgpb "github.com/AmirSoleimani/grpc-go/examples/route_guide/routeguide"
 )
 
 var msg = &rgpb.RouteNote{

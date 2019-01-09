@@ -31,10 +31,10 @@ import (
 	"time"
 
 	"google.golang.org/grpc"
-	testpb "google.golang.org/grpc/benchmark/grpc_testing"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/status"
+	testpb "github.com/AmirSoleimani/grpc-go/benchmark/grpc_testing"
+	"github.com/AmirSoleimani/grpc-go/codes"
+	"github.com/AmirSoleimani/grpc-go/grpclog"
+	"github.com/AmirSoleimani/grpc-go/status"
 )
 
 var (

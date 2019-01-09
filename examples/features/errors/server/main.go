@@ -29,9 +29,9 @@ import (
 
 	epb "google.golang.org/genproto/googleapis/rpc/errdetails"
 	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	pb "google.golang.org/grpc/examples/helloworld/helloworld"
-	"google.golang.org/grpc/status"
+	"github.com/AmirSoleimani/grpc-go/codes"
+	pb "github.com/AmirSoleimani/grpc-go/examples/helloworld/helloworld"
+	"github.com/AmirSoleimani/grpc-go/status"
 )
 
 var port = flag.Int("port", 50052, "port number")

@@ -31,7 +31,7 @@ import (
 	"testing"
 
 	"golang.org/x/sys/unix"
-	"google.golang.org/grpc/internal/channelz"
+	"github.com/AmirSoleimani/grpc-go/internal/channelz"
 )
 
 func TestGetSocketOpt(t *testing.T) {

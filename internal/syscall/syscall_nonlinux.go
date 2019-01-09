@@ -24,7 +24,7 @@ import (
 	"net"
 	"time"
 
-	"google.golang.org/grpc/grpclog"
+	"github.com/AmirSoleimani/grpc-go/grpclog"
 )
 
 func init() {

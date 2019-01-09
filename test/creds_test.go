@@ -26,9 +26,9 @@ import (
 	"testing"
 
 	"google.golang.org/grpc"
-	"google.golang.org/grpc/credentials"
-	testpb "google.golang.org/grpc/test/grpc_testing"
-	"google.golang.org/grpc/testdata"
+	"github.com/AmirSoleimani/grpc-go/credentials"
+	testpb "github.com/AmirSoleimani/grpc-go/test/grpc_testing"
+	"github.com/AmirSoleimani/grpc-go/testdata"
 )
 
 const (

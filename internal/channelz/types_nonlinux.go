@@ -23,7 +23,7 @@ package channelz
 import (
 	"sync"
 
-	"google.golang.org/grpc/grpclog"
+	"github.com/AmirSoleimani/grpc-go/grpclog"
 )
 
 var once sync.Once

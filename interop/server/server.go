@@ -24,12 +24,12 @@ import (
 	"strconv"
 
 	"google.golang.org/grpc"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/credentials/alts"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/interop"
-	testpb "google.golang.org/grpc/interop/grpc_testing"
-	"google.golang.org/grpc/testdata"
+	"github.com/AmirSoleimani/grpc-go/credentials"
+	"github.com/AmirSoleimani/grpc-go/credentials/alts"
+	"github.com/AmirSoleimani/grpc-go/grpclog"
+	"github.com/AmirSoleimani/grpc-go/interop"
+	testpb "github.com/AmirSoleimani/grpc-go/interop/grpc_testing"
+	"github.com/AmirSoleimani/grpc-go/testdata"
 )
 
 var (

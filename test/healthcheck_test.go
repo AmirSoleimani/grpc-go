@@ -28,17 +28,17 @@ import (
 	"time"
 
 	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/connectivity"
-	_ "google.golang.org/grpc/health"
-	healthgrpc "google.golang.org/grpc/health/grpc_health_v1"
-	healthpb "google.golang.org/grpc/health/grpc_health_v1"
-	"google.golang.org/grpc/internal"
-	"google.golang.org/grpc/internal/channelz"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/resolver/manual"
-	"google.golang.org/grpc/status"
-	testpb "google.golang.org/grpc/test/grpc_testing"
+	"github.com/AmirSoleimani/grpc-go/codes"
+	"github.com/AmirSoleimani/grpc-go/connectivity"
+	_ "github.com/AmirSoleimani/grpc-go/health"
+	healthgrpc "github.com/AmirSoleimani/grpc-go/health/grpc_health_v1"
+	healthpb "github.com/AmirSoleimani/grpc-go/health/grpc_health_v1"
+	"github.com/AmirSoleimani/grpc-go/internal"
+	"github.com/AmirSoleimani/grpc-go/internal/channelz"
+	"github.com/AmirSoleimani/grpc-go/resolver"
+	"github.com/AmirSoleimani/grpc-go/resolver/manual"
+	"github.com/AmirSoleimani/grpc-go/status"
+	testpb "github.com/AmirSoleimani/grpc-go/test/grpc_testing"
 )
 
 var testHealthCheckFunc = internal.HealthCheckFunc

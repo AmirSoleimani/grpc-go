@@ -29,17 +29,17 @@ import (
 	"time"
 
 	"golang.org/x/net/http2"
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/internal/backoff"
-	"google.golang.org/grpc/internal/envconfig"
-	"google.golang.org/grpc/internal/transport"
-	"google.golang.org/grpc/keepalive"
-	"google.golang.org/grpc/naming"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/resolver/manual"
-	_ "google.golang.org/grpc/resolver/passthrough"
-	"google.golang.org/grpc/testdata"
+	"github.com/AmirSoleimani/grpc-go/connectivity"
+	"github.com/AmirSoleimani/grpc-go/credentials"
+	"github.com/AmirSoleimani/grpc-go/internal/backoff"
+	"github.com/AmirSoleimani/grpc-go/internal/envconfig"
+	"github.com/AmirSoleimani/grpc-go/internal/transport"
+	"github.com/AmirSoleimani/grpc-go/keepalive"
+	"github.com/AmirSoleimani/grpc-go/naming"
+	"github.com/AmirSoleimani/grpc-go/resolver"
+	"github.com/AmirSoleimani/grpc-go/resolver/manual"
+	_ "github.com/AmirSoleimani/grpc-go/resolver/passthrough"
+	"github.com/AmirSoleimani/grpc-go/testdata"
 )
 
 var (

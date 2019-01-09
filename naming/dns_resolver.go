@@ -26,7 +26,7 @@ import (
 	"strconv"
 	"time"
 
-	"google.golang.org/grpc/grpclog"
+	"github.com/AmirSoleimani/grpc-go/grpclog"
 )
 
 const (

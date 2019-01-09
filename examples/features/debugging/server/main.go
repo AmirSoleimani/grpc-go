@@ -26,9 +26,9 @@ import (
 
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
-	"google.golang.org/grpc/channelz/service"
-	pb "google.golang.org/grpc/examples/helloworld/helloworld"
-	"google.golang.org/grpc/internal/grpcrand"
+	"github.com/AmirSoleimani/grpc-go/channelz/service"
+	pb "github.com/AmirSoleimani/grpc-go/examples/helloworld/helloworld"
+	"github.com/AmirSoleimani/grpc-go/internal/grpcrand"
 )
 
 var (

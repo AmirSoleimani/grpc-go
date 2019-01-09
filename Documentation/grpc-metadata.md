@@ -16,7 +16,7 @@ And concept of [metadata](https://grpc.io/docs/guides/concepts.html#metadata).
 
 ## Constructing metadata
 
-A metadata can be created using package [metadata](https://godoc.org/google.golang.org/grpc/metadata).
+A metadata can be created using package [metadata](https://godoc.org/github.com/AmirSoleimani/grpc-go/metadata).
 The type MD is actually a map from string to a list of strings:
 
 ```go
